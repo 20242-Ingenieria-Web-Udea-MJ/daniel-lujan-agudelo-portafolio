@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width" />
         <title>Daniel Lujan Agudelo - Portfolio</title>
       </head>
