@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { ProjectSlider } from "@/components/ProjectSlider";
+import { ProjectSlider } from "@/components/molecules/ProjectSlider";
 
 export const ProjectSection = ({ locale }: { locale: SupportedLocale }) => {
   useEffect(() => {

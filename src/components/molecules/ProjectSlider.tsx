@@ -1,6 +1,6 @@
 import { createRef, useEffect, useState } from "react";
 import { PROJECTS } from "@/constants";
-import ProjectCard from "@/components/ProjectCard";
+import ProjectCard from "@/components/molecules/ProjectCard";
 
 const ArrowRightIcon = () => {
   return (

@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useIsVisible } from "@/hooks/useIsVisible";
-import { ProjectTechBubble } from "@/components/ProjectTechBubble";
-import Tag from "./Tag";
-import { ProjectTypeBadge } from "@/components/ProjectTypeBadge";
+import { ProjectTechBubble } from "@/components/atoms/ProjectTechBubble";
+import Tag from "../atoms/Tag";
+import { ProjectTypeBadge } from "@/components/atoms/ProjectTypeBadge";
 import { twMerge } from "tailwind-merge";
 
 type ProjectCardProps = {

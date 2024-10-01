@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { SKILLS } from "@/constants";
-import { SkillCard } from "@/components/SkillCard";
+import { SkillCard } from "@/components/atoms/SkillCard";
 import { motion } from "framer-motion";
 
 type SklillsMenuOptionProps = {

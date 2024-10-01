@@ -1,4 +1,4 @@
-import { TechBubble } from "./TechBubble";
+import { TechBubble } from "../atoms/TechBubble";
 
 export const Avatar = () => {
   return (

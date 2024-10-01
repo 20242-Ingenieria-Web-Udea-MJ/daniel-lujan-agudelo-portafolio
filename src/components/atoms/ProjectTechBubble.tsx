@@ -1,4 +1,4 @@
-import { LOGOS } from "../constants";
+import { LOGOS } from "../../constants";
 import { ToolTip } from "./Tooltip";
 
 type ProjectTechBubbleProps = {

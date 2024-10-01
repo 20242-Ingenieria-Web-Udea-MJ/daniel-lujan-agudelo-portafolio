@@ -1,4 +1,4 @@
-import { LOGOS } from "../constants";
+import { LOGOS } from "../../constants";
 import { motion } from "framer-motion";
 
 type SkillCardProps = {

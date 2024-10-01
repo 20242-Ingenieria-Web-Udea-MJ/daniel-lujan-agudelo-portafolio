@@ -14,7 +14,7 @@ export const TechBubble = (props: Props) => {
         props.className
       )}
       style={{
-        animationDelay: ` ${props.delay}ms, ${(props.delay ?? 0) + 200}ms;`,
+        animationDelay: ` ${props.delay}ms, ${(props.delay ?? 0) + 200}ms`,
       }}
     >
       <img alt="Tech Icon" src={props.src} className="object-fit" />

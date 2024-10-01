@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from "./icons/ArrowRightIcon";
+import { ArrowRightIcon } from "../atoms/icons/ArrowRightIcon";
 
 interface Props {
   title: string;

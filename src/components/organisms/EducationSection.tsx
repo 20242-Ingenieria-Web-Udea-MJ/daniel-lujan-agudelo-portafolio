@@ -1,4 +1,4 @@
-import { CertificateCard } from "@/components/CertificateCard";
+import { CertificateCard } from "@/components/molecules/CertificateCard";
 import { CERTS } from "@/constants";
 
 export const EducationSection = (props: { locale: string }) => {

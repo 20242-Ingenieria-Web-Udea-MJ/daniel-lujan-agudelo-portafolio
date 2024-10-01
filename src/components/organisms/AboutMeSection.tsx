@@ -1,4 +1,4 @@
-import { Button } from "@/components/Button";
+import { Button } from "@/components/atoms/Button";
 
 export const AboutMeSection = (props: { locale: string }) => {
   const locale = props.locale as SupportedLocale;

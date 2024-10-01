@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useEffect } from "react";
-import { MenuIcon } from "@/components/icons/MenuIcon";
-import { Button } from "@/components/Button";
-import { AnimatedTitle } from "@/components/AnimatedTitle";
+import { MenuIcon } from "@/components/atoms/icons/MenuIcon";
+import { Button } from "@/components/atoms/Button";
+import { AnimatedTitle } from "@/components/atoms/AnimatedTitle";
 import { usePathname } from "next/navigation";
 
 export const Header = () => {

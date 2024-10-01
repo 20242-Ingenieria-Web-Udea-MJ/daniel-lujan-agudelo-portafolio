@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { NavigationMenuOption } from "@/components/NavigationMenuOption";
+import { NavigationMenuOption } from "@/components/atoms/NavigationMenuOption";
 
 export const NavigationMenu = (props: { locale: string }) => {
   const locale = props.locale as SupportedLocale;

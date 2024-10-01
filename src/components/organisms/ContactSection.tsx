@@ -1,4 +1,4 @@
-import { EmailShareIcon } from "./icons/EmailShareIcon";
+import { EmailShareIcon } from "../atoms/icons/EmailShareIcon";
 import { CONTACT_EMAIL } from "@/constants";
 
 export const ContactSection = (props: { locale: string }) => {

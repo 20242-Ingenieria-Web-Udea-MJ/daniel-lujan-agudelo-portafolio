@@ -1,4 +1,4 @@
-import { SkillsMenu } from "./SkillMenu";
+import { SkillsMenu } from "../molecules/SkillMenu";
 
 export const SkillsSection = (props: { locale: SupportedLocale }) => {
   const locale = props.locale;

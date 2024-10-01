@@ -1,8 +1,8 @@
-import { Button } from "@/components/Button";
-import { Avatar } from "@/components/Avatar";
-import { GithubIcon } from "@/components/icons/GithubIcon";
-import { FileTypePDFIcon } from "./icons/FileTypePDFIcon";
-import { LinkedinIcon } from "./icons/LinkedinIcon";
+import { Button } from "@/components/atoms/Button";
+import { Avatar } from "@/components/molecules/Avatar";
+import { GithubIcon } from "@/components/atoms/icons/GithubIcon";
+import { FileTypePDFIcon } from "../atoms/icons/FileTypePDFIcon";
+import { LinkedinIcon } from "../atoms/icons/LinkedinIcon";
 import { CV_SRC, SOCIAL_LINKS } from "@/constants";
 
 export const HeroSection = (props: { locale: string }) => {
