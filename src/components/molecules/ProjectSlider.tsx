@@ -30,6 +30,7 @@ export const ProjectSlider = ({ locale }: ProjecSliderProps) => {
   const refs = PROJECTS.map(() => createRef<HTMLDivElement>());
   const containerRef = createRef<HTMLDivElement>();
 
+  // This effect will scroll the container to the active project
   useEffect(() => {
     const container = containerRef.current;
     const ref = refs[activeIndex];

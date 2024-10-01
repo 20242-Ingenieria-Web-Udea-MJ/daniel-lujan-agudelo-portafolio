@@ -12,6 +12,7 @@ type ProjectCardProps = {
 };
 
 const ProjectCard = ({ project, cardRef, locale }: ProjectCardProps) => {
+  // Used to determine if the card is visible in the viewport
   const { isVisible, targetRef } = useIsVisible(
     {
       root: null,
@@ -23,6 +24,7 @@ const ProjectCard = ({ project, cardRef, locale }: ProjectCardProps) => {
 
   const videoRef = useRef<HTMLVideoElement>(null);
 
+  // Only load & play the video when it's visible
   const startVideo = useCallback(async () => {
     if (isVisible) {
       await videoRef.current?.play();
