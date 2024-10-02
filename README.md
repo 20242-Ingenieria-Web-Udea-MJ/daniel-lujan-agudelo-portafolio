@@ -3,7 +3,7 @@
 _Daniel Lujan Agudelo_
 
 > [!NOTE]
-> Deployed to Vercel at [https://portfolio-next-murex-sigma.vercel.app](https://portfolio-next-murex-sigma.vercel.app/)
+> Deployed to Vercel at [https://daniel-lujan-agudelo.vercel.app](https://daniel-lujan-agudelo.vercel.app/)
 
 > [!IMPORTANT]
 > This is a NextJS adaptation of original repo built with Astro. Original portfolio: [lujn.dev](https://lujn.dev)
